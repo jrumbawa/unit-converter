@@ -13,23 +13,24 @@
   <div class="app">
     <div class="app-header">
       <h2 class="app-title">Metric/Imperial Unit Conversion</h2>
-      <input class="unit-input" type="text">
+      <input class="unit-input" id="unit-input" ="text">
       <button id="convert-btn" class="btn">Convert</button>
     </div>
     <div class="app-info">
       <div class="conversion">
         <h3 class="conversion-measurement">Length (Meter/Feet)</h3>
-        <p class="conversion-units">0 meters = 0 feet | 0 feet = 0 meters</p>
+        <p id="length-el" class="conversion-units">0 meters = 0 feet | 0 feet = 0 meters</p>
       </div>
       <div class="conversion">
         <h3 class="conversion-measurement">Volume (Liters/Gallons)</h3>
-        <p class="conversion-units">0 liters = 0 gallons | 0 gallons = 0 liters</p>
+        <p id="volume-el" class="conversion-units">0 liters = 0 gallons | 0 gallons = 0 liters</p>
       </div>
       <div class="conversion">
         <h3 class="conversion-measurement">Mass (Kilograms/Pounds)</h3>
-        <p class="conversion-units">0 kilograms = 0 pounds | 0 pounds = 0 kilograms</p>
+        <p id="mass-el" class="conversion-units">0 kilos = 0 pounds | 0 pounds = 0 kilos</p>
       </div>
     </div>
   </div>
+  <script src="index.js"></script>
 </body>
 </html>
