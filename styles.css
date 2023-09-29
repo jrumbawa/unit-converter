@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #FFFFFF;
+}
+
+.app {
+  margin-inline: auto;
+  text-align: center;
+}
+
+.app-header {
+  background-color: #6943FF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.unit-input {
+
+  background-color: #6943FF;
+  border: 1px solid #B295FF;
+  border-radius: 5px;
+  font-size: 58px;
+  font-weight: 800;
+}
+
+.btn {
+  border: none;
+  font-weight: 500;
+  padding: 10px 26px;
+  border-radius: 5px;
+}
+
+.app-title {
+  font-size: 28px;
+  font-weight: 800;
+
+}
+
+.app-info {
+  background-color: #1F2937;
+  padding: 36px 25px;
+  /* height: calc(100vh - ); */
+}
+
+.conversion {
+  background-color: #273549;
+  width: 500px;
+  margin: 0 auto 24px;
+  padding: 32px 72px 18px;
+}
+
+.conversion-measurement {
+  color: #CCC1FF;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.conversion-units {
+  font-size: 14px;
+}
